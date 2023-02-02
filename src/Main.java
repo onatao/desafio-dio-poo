@@ -40,6 +40,7 @@ public class Main {
         d1.progredir();
         System.out.println("Conteúdos inscritos Nathan: " + d1.getConteudosInscritos());
         System.out.println("Conteúdos concluídos Nathan: " + d1.getConteudosConcluidos());
+        System.out.println("XP: " + d1.calcularTotalXp());
 
         System.out.println("-----------------------------");
 
@@ -47,9 +48,10 @@ public class Main {
         d2.setNome("Arthur");
         d2.inscreverBootcamp(b1);
         System.out.println("Conteúdos inscritos Arthur: " + d2.getConteudosInscritos());
-        d1.progredir();
+        d2.progredir();
         System.out.println("Conteúdos inscritos Arthur: " + d2.getConteudosInscritos());
         System.out.println("Conteúdos concluídos Arthur: " + d2.getConteudosConcluidos());
+        System.out.println("XP: " + d2.calcularTotalXp());
 
 
 
